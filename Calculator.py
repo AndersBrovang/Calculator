@@ -35,7 +35,8 @@ try:
             result = num1 ** num2
             op = "^"
 
-        print(f"\n✅ Result: {num1} {op} {num2} = {result}")
+        print(f"\nResult: {num1} {op} {num2} = {result}")
 
 except ValueError:
     print("Please enter valid numbers only.")
+
